@@ -8,7 +8,6 @@ const navLinks = [
   { label: 'Why Choose Us', href: '#why-us' },
   { label: 'Loan Process', href: '#process' },
   { label: 'Testimonials', href: '#testimonials' },
-  { label: 'Contact', href: '#contact' },
 ];
 
 export default function Navbar() {
@@ -65,7 +64,9 @@ export default function Navbar() {
               +91 98765 43210
             </a>
             <a
-              href="#contact"
+              href="https://wa.me/919876543210?text=Hello%20KFS%2C%20I%20need%20a%20free%20loan%20consultation"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden md:inline-flex items-center px-5 py-2.5 rounded-lg text-white text-sm font-bold transition-all duration-200 hover:scale-105 hover:shadow-[0_4px_20px_rgba(139,26,26,0.4)] pulse-glow"
               style={{ background: 'linear-gradient(135deg, #8B1A1A, #b52020)' }}
             >
@@ -100,7 +101,9 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="https://wa.me/919876543210?text=Hello%20KFS%2C%20I%20need%20a%20free%20loan%20consultation"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setOpen(false)}
             className="block mt-4 text-center py-3 rounded-lg text-white font-bold text-sm"
             style={{ background: 'linear-gradient(135deg, #8B1A1A, #b52020)' }}

@@ -4,7 +4,6 @@ import Services from "./components/Services";
 import WhyUs from "./components/WhyUs";
 import Process from "./components/Process";
 import Stats from "./components/Stats";
-import LeadForm from "./components/LeadForm";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
@@ -21,7 +20,6 @@ export default function Home() {
         <Process />
         <Stats />
         <Testimonials />
-        <LeadForm />
         <FAQ />
       </main>
       <Footer />

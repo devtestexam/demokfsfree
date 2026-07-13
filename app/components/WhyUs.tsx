@@ -65,7 +65,9 @@ export default function WhyUs() {
 
         <div className="text-center mt-14">
           <a
-            href="#contact"
+            href="https://wa.me/919876543210?text=Hello%20KFS%2C%20I%20need%20a%20free%20loan%20consultation"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-10 py-4 rounded-xl text-white font-black text-base transition-all duration-300 hover:scale-105 hover:shadow-[0_8px_40px_rgba(139,26,26,0.4)] pulse-glow"
             style={{ background: 'linear-gradient(135deg, #8B1A1A, #b52020)' }}
           >

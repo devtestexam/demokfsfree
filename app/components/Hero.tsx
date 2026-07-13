@@ -77,7 +77,9 @@ export default function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-10">
               <a
-                href="#contact"
+                href="https://wa.me/919876543210?text=Hello%20KFS%2C%20I%20need%20a%20free%20loan%20consultation"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-xl text-white font-bold text-base transition-all duration-300 hover:scale-105 hover:shadow-[0_8px_30px_rgba(192,57,43,0.4)] pulse-glow"
                 style={{ background: 'linear-gradient(135deg, #8B1A1A, #b52020)' }}
               >

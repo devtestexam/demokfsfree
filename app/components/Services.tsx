@@ -47,7 +47,12 @@ export default function Services() {
               <h3 className="text-gray-900 font-bold text-base mb-2 group-hover:text-[#8B1A1A] transition-colors">{title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed mb-5">{desc}</p>
 
-              <a href="#contact" className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#8B1A1A] transition-all duration-200">
+              <a
+                href={`https://wa.me/919876543210?text=Hello%20KFS%2C%20I%20want%20to%20apply%20for%20a%20${encodeURIComponent(title)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#8B1A1A] transition-all duration-200"
+              >
                 Apply Now
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
               </a>

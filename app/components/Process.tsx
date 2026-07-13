@@ -68,7 +68,9 @@ export default function Process() {
           <p className="text-white font-black text-xl mb-2 relative z-10">🚀 Start your journey in under 5 minutes</p>
           <p className="text-white/80 text-sm mb-6 relative z-10">No credit score impact for inquiry. 100% confidential & secure process.</p>
           <a
-            href="#contact"
+            href="https://wa.me/919876543210?text=Hello%20KFS%2C%20I%20need%20a%20free%20loan%20consultation"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 rounded-xl text-[#8B1A1A] font-bold transition-all duration-300 hover:scale-105 relative z-10 bg-white"
           >
             Apply Now — It&apos;s Free

@@ -6,7 +6,6 @@ const quickLinks = [
   { label: 'Why Choose Us', href: '#why-us' },
   { label: 'Loan Process', href: '#process' },
   { label: 'Testimonials', href: '#testimonials' },
-  { label: 'Contact Us', href: '#contact' },
 ];
 
 const services = ['Personal Loan', 'Business Loan', 'Home Loan', 'Loan Against Property', 'Mortgage Loan', 'Working Capital Loan'];
@@ -27,7 +26,12 @@ export default function Footer() {
           <h3 className="text-white font-black text-2xl mb-3 relative z-10">🚀 Ready to Get Your Loan Approved?</h3>
           <p className="text-white/80 mb-5 relative z-10 text-sm">Join 5,000+ happy clients. Apply now or WhatsApp us for instant response.</p>
           <div className="flex flex-wrap justify-center gap-4 relative z-10">
-            <a href="#contact" className="px-7 py-3 rounded-xl text-[#8B1A1A] font-bold text-sm transition-all hover:scale-105 bg-white">
+            <a
+              href="https://wa.me/919876543210?text=Hello%20KFS%2C%20I%20need%20a%20free%20loan%20consultation"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-7 py-3 rounded-xl text-[#8B1A1A] font-bold text-sm transition-all hover:scale-105 bg-white"
+            >
               Apply Now
             </a>
             <a
